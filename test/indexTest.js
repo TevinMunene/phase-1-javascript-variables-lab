@@ -27,10 +27,10 @@ describe('index.js', function () {
   describe('companyCeo', function () {
     it('is declared as equal to Susan Smith', function () {
       expect(companyCeo).to.equal('Susan Smith');
-    });
+     });
 
-    it('is defined using let', function () {
+     it('is defined using let', function () {
       expect(js).to.match(/let companyCeo/, "Expected companyCeo to be defined using let");
-    });
+      });
   });
-});
+})
